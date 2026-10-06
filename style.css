@@ -1,0 +1,321 @@
+
+/* =====================================================
+CONFIGURAÇÕES GERAIS
+===================================================== */
+
+/* Remove espaçamentos padrão do navegador */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* Configurações gerais da página */
+body{
+background-color: #f5f5f5;
+font-family: Arial, Helvetica, sans-serif;
+min-height: 100vh;
+}
+
+/* =====================================================
+NAVBAR
+===================================================== */
+
+/* Barra superior */
+.navbar{
+box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+/* Nome da concessionária */
+.navbar-brand{
+font-size: 1.5rem;
+}
+
+/* Links do menu */
+.nav-link{
+transition: 0.3s;
+}
+
+/* Efeito ao passar o mouse */
+.nav-link{
+color: #0d6efd !important;
+}
+
+/* =====================================================
+BANNER PRINCIPAL
+===================================================== */
+
+/* Banner da página inicial */
+.p-5.bg-dark{
+
+background: linear-gradient(
+    135deg,
+    #212529,
+    #000000
+) !important;
+
+border-radius: 15px;
+
+}
+
+/* Título principal */
+.display-4{
+font-weight: bold;
+}
+
+/* Texto do banner */
+.lead{
+margin-top: 15px;
+}
+
+/* =====================================================
+BOTÕES
+===================================================== */
+
+/* Todos os botões */
+.btn{
+transition: 0.3s;
+}
+
+/* Efeito ao passar o mouse */
+.btn{
+transform: scale(1.05);
+}
+
+/* =====================================================
+CARDS
+===================================================== */
+
+/* Cards dos veículos */
+.card{
+
+border: none;
+
+border-radius: 15px;
+
+overflow: hidden;
+
+transition: 0.3s;
+
+}
+
+/* Efeito de destaque */
+.card{
+
+transform: translateY(-5px);
+
+box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+
+}
+
+/* Imagens dos carros */
+.card img{
+
+height: 220px;
+
+object-fit: cover;
+
+}
+
+/* Corpo do card */
+.card-body{
+
+padding: 20px;
+
+}
+
+/* Nome do carro */
+.card-title{
+
+font-weight: bold;
+
+color: #212529;
+
+}
+
+/* Informações do carro */
+.card-text{
+
+color: #555;
+
+}
+
+/* =====================================================
+TABELAS
+===================================================== */
+
+/* Tabela da área administrativa */
+.table{
+
+background-color: white;
+
+border-radius: 10px;
+
+overflow: hidden;
+
+}
+
+/* Cabeçalho da tabela */
+.table thead{
+
+background-color: #212529;
+
+color: white;
+
+}
+
+/* =====================================================
+FORMULÁRIOS
+===================================================== */
+
+/* Campos de texto */
+.form-control{
+
+border-radius: 10px;
+
+}
+
+/* Campo selecionado */
+.form-control{
+
+border-color: #0d6efd;
+
+box-shadow: 0 0 5px rgba(13,110,253,0.4);
+
+}
+
+/* Select */
+.form-select{
+
+border-radius: 10px;
+
+}
+
+/* =====================================================
+CONTAINERS
+===================================================== */
+
+/* Espaçamento padrão */
+.container{
+
+margin-top: 20px;
+
+}
+
+/* =====================================================
+TÍTULOS
+===================================================== */
+
+h1{
+
+color: #212529;
+
+margin-bottom: 20px;
+
+}
+
+h2{
+
+color: #212529;
+
+margin-bottom: 20px;
+
+}
+
+h3{
+
+color: #212529;
+
+}
+
+h5{
+
+color: #212529;
+
+}
+
+/* =====================================================
+ÁREA DO USUÁRIO
+===================================================== */
+
+/* Mensagem de boas-vindas */
+#boasVindas{
+
+text-align: center;
+
+margin-bottom: 30px;
+
+}
+
+/* =====================================================
+ÁREA ADMINISTRATIVA
+===================================================== */
+
+/* Título do painel */
+.admin-title{
+
+text-align: center;
+
+margin-bottom: 30px;
+
+}
+
+/* =====================================================
+RODAPÉ
+===================================================== */
+
+footer{
+
+margin-top: 50px;
+
+background-color: #212529;
+
+}
+
+footer p{
+
+margin: 5px;
+
+}
+
+/* =====================================================
+RESPONSIVIDADE
+===================================================== */
+
+@media (max-width: 768px){
+
+.display-4{
+
+    font-size: 2rem;
+
+}
+
+.card img{
+
+    height: 180px;
+
+}
+
+.navbar-brand{
+
+    font-size: 1.2rem;
+
+}
+
+}
+
+@media (max-width: 576px){
+
+.display-4{
+
+    font-size: 1.7rem;
+
+}
+
+.lead{
+
+    font-size: 1rem;
+
+}
+
+}

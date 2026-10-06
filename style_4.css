@@ -1,0 +1,72 @@
+*/form{
+ display: grid;
+gap: 15px;
+max-width: 500px;
+margin: 0 auto;
+}
+
+.input textarea{
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 1rem;
+font-family: inherit;
+background-color: #f9f9f9;
+}
+
+.textarea{
+resize: vertical;
+min-height: 120px;
+}
+
+.input:focus, textarea:focus{
+    outline: none;
+    border-color: #888;
+    border-color: #fff;
+}
+
+.button{
+    padding: 15px;
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover{
+    background-color: #555;
+}
+
+.grid-produtos{
+    display: grid;
+    grid-template-columns: repeat(250px 1fr);
+    gap: 20px;
+}
+
+.card{
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+.card img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.card p{
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #444;
+}
